@@ -5,10 +5,17 @@
  */
 package Model;
 
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+
 /**
  *
  * @author 771000343
  */
 public class Mensagem {
-    
+    public String buscaMensagem(int aleatorio) throws IOException {
+        String linha = Files.readAllLines(Paths.get("mensagens.txt")).get(aleatorio);
+        return linha;
+    }
 }

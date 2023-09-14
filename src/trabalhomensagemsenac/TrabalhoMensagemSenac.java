@@ -5,6 +5,9 @@
  */
 package trabalhomensagemsenac;
 
+import Model.Mensagem;
+import java.io.IOException;
+
 /**
  *
  * @author 182210124
@@ -14,8 +17,8 @@ public class TrabalhoMensagemSenac {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         System.out.println("123");
     }
-    
+   
 }

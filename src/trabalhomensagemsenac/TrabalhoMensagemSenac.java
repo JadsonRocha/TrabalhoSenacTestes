@@ -5,6 +5,9 @@
  */
 package trabalhomensagemsenac;
 
+import javax.swing.JFrame;
+import trabalhomensagemsenac.Views.Tela;
+
 /**
  *
  * @author 182210124
@@ -15,7 +18,10 @@ public class TrabalhoMensagemSenac {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.println("123");
+        Tela tela = new Tela();
+        tela.setDefaultCloseOperation( JFrame.EXIT_ON_CLOSE );
+        tela.setLocationRelativeTo(null);
+        tela.setVisible(true);
     }
     
 }

@@ -83,7 +83,7 @@ public class Tela extends javax.swing.JFrame {
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         MensagemController mc = new MensagemController();
         try {
-            mc.buscaMensagem();
+            jTextArea1.setText(mc.buscaMensagem());
         } catch (IOException ex) {
             Logger.getLogger(Tela.class.getName()).log(Level.SEVERE, null, ex);
         }

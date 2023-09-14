@@ -6,7 +6,7 @@
 package trabalhomensagemsenac;
 
 import javax.swing.JFrame;
-import trabalhomensagemsenac.Views.Tela;
+import Views.Tela;
 
 /**
  *

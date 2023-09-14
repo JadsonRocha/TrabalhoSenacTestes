@@ -5,8 +5,12 @@
  */
 package trabalhomensagemsenac;
 
+
 import Model.Mensagem;
 import java.io.IOException;
+import javax.swing.JFrame;
+import Views.Tela;
+
 
 /**
  *
@@ -17,8 +21,13 @@ public class TrabalhoMensagemSenac {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) throws IOException {
-        System.out.println("123");
+
+    public static void main(String[] args) {
+        Tela tela = new Tela();
+        tela.setDefaultCloseOperation( JFrame.EXIT_ON_CLOSE );
+        tela.setLocationRelativeTo(null);
+        tela.setVisible(true);
+
     }
    
 }
